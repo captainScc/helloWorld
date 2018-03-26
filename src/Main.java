@@ -5,7 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        int i = 3;
+        int i = 5;
         int j = i++;
         System.out.println(i+"--"+j);
         if((i>++j) && (i++ == j)){
