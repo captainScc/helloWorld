@@ -5,16 +5,7 @@ import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
-        int i = 8;
-        int j = i++;
-        System.out.println(i+"--"+j);
-        if((i>++j) && (i++ == j)){
-            System.out.println("==");
-            i += j;
-        }
-        System.out.println(i);
-
-
+       int a = 1;
 
     }
 
